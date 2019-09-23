@@ -1,0 +1,69 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>EducaT | Youtube</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Kanji.html">Kanji</a>
+        <a href="Youtube.html">Youtube</a>
+        <a href="#">Prueba4</a>
+        <a href="#">Prueba5</a>
+    </nav>
+    <div class="section1">
+        <div class="information">
+            <p1 id="kanji">1</p1>
+            <h2 id="reading">2</h2>
+            <h2 id="meaning"></h2>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="Youtube.html"></script>
+</html>
+-->
+
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="stylesheet" href="style.css">
+                <title>EducaT | Video Tutoriales</title>
+            </head>
+  <body>
+        <nav>
+                <a href="index.html">Inicio</a>
+                <a href="Kanji.html">Kanji</a>
+                <a href="Youtube.html">Youtube</a>
+                <a href="#">Prueba4</a>
+                <a href="#">Prueba5</a>
+            </nav>
+            
+
+ <!-- Video #1. -->
+    <div id="player"></div>
+    <script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    var player;
+    function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+    height: '360',width: '640',
+          videoId: 'ilwDMDxNDO0',
+      events:{'onReady': onPlayerReady,'onStateChange': onPlayerStateChange}});}
+      function onPlayerReady(event){event.target.playVideo();}
+     var done = false;function onPlayerStateChange(event){if (event.data == YT.PlayerState.PLAYING && !done){setTimeout(stopVideo, 0001);done = true;}}function stopVideo(){player.stopVideo();}
+  </script>
+<!-- Video #1. -->
+
+
+  </body>
+</html>
