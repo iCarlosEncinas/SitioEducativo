@@ -1,28 +1,44 @@
+
 .titulo{
     text-align: center;
 }
 
 #kanji{
     color: black;
-    font-size: 30px;
+    font-size: 80px;
 }
-div{
+.section1{
     text-align: center;
+    background-color: brown;
+    height: 25%;
+}
+.information{
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aquamarine;
 }
 
 nav{
-    background-color: aliceblue;
+    background-color: black;
     text-decoration: none;
     text-align: center;
-    margin: 0%;
+    vertical-align: top;
+    padding: 2%;  
 }
 a{
+    position: relative;
     text-align: center;
-    background-color: gray;
+    background-color: brown;
     text-decoration: none;
     color: black;
     margin: 0%;
+    margin-right: 5%;
+    padding: 1%;
+    
 }
 a:hover{
     background-color: aqua;
+    color: red;
 }
