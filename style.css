@@ -41,3 +41,12 @@ a:hover{
     background-color: aqua;
     color: red;
 }
+
+.Video2{
+    vertical-align: middle;
+}
+
+.Video1{
+    vertical-align: bottom;
+    text-align: center;
+}
