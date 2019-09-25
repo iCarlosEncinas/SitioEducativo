@@ -42,3 +42,9 @@ a:hover{
     background-color: aqua;
     color: red;
 }
+
+.Buscador{
+    margin-top: 3%;
+    text-align: center;
+    border: none;
+}
