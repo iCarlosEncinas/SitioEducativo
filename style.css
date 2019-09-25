@@ -1,3 +1,5 @@
+body {background-color :#333333;}
+
 
 .titulo{
     text-align: center;
@@ -42,11 +44,36 @@ a:hover{
     color: red;
 }
 
-.Video2{
-    vertical-align: middle;
+.Video1{
+    position: relative;
+    top:  10px;
+    left: 800px;
+    text-align: left;
 }
 
-.Video1{
-    vertical-align: bottom;
-    text-align: center;
+.vidio2{
+    position: relative;
+    top:  100px;
+    left: 100px;
+}
+
+.Vidio3{
+    position: relative;
+    top:  200px;
+    left: 800px;
+}
+
+.vidio4{
+    position: relative;
+    top:  300px;
+    left: 100px;
+}
+
+.texto1{
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    margin: 0;
+    color : white;
+    /*text-align: right;*/
 }
