@@ -5,7 +5,8 @@ const pokemonFrontImg = document.getElementById('pokemon-img-front');
 const pokemonNumber = document.getElementById('pokemon-number');
 const pokemonWeight = document.getElementById('pokemon-weight');
 const pokemonAbilities = document.getElementById('pokemon-abilities'); 
-var pokemonSearch = document.getElementById('pokemon-search').value = "1";
+let pokemonSearch = document.getElementById('pokemon-search').value;
+//var pokemonSearch = HTMLInputElement.value('search');
 
 //const pokemonAbilitiesApi = document.getElementById('pokemon-abilities-api'); 
 const btnSearch = document.getElementById('btn-search');
@@ -23,7 +24,9 @@ let getPokemonAbilityData = async url=>{
 }
 
 let getPokemonData = async ()=>{
+    console.log(pokemonSearch);
     const response = await fetch(`${pokemonApiUrl}pokemon/${pokemonSearch}/`);
+    console.log(response);
     const pokemon = await response.json();
     console.log(pokemon);
     const {name , height, abilities}= pokemon;
@@ -47,11 +50,8 @@ let getPokemonData = async ()=>{
                 </ul>
             </div>
         </li>`
-        //pokemonAbilities.innerHTML += `<li>${element.ability.name}</li>`;
-        //pokemonAbilitiesApi.innerHTML += `<li>${element.ability.url}</li>`;
-        //console.log(element.ability);
     });
-}
+};
 
 btnSearch.addEventListener('click', getPokemonData);
 
