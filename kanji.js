@@ -1,18 +1,23 @@
 const Htmlkanji = document.getElementById('kanji');
 const Htmlreading = document.getElementById('reading');
 const Htmlmean = document.getElementById('meaning');
-let Htmlsearch = document.inputEncoding
+const Htmlsearch = document.getElementById('SearchKanji').nodeValue = '僕';
+const btnSearch = document.getElementById('btn-search');
 
-const ApiUrl = ('https://kanjiapi.dev/v1/');
+const ApiUrl = ('https://kanjiapi.dev/v1/kanji/');
 
-getKanjiData = async ()=>{
-    const response = await fetch(`${ApiUrl}kanji/${Htmlsearch}`);
+const getKanjiData = async ()=>{
+    const response = await fetch(`${ApiUrl}${Htmlsearch}`);
     const Datakanji = await response.json();
     console.log(Datakanji);
+    console.log(Htmlsearch); 
     const {kanji , kun_readings , meanings} = Datakanji;
-    Htmlkanji.innerHTML = kanji; 
+    Htmlkanji.innerHTML = kanji;
     Htmlreading.innerHTML = kun_readings;
-    Htmlmean.innerHTML = meanings; 
+    meanings.forEach(element => {
+        Htmlmean.innerHTML += element.meanings;
+    });
+    
 }
 
-getKanjiData();
+btnSearch.addEventListener('click', getKanjiData);
