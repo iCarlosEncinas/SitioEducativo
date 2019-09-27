@@ -1,4 +1,3 @@
-
 /*bulbasaur*/
 .pokemon1{
     margin:0 0 25px;
@@ -11,6 +10,7 @@
     text-size-adjust: inherit;
     margin-right: 70%;
     position: absolute;
+    text-indent: 12px;
 }
 .pokemon2{
     margin:0 0 25px;
@@ -25,6 +25,8 @@
     position: relative;
     left: 480px;
     text-align: left;
+    text-indent: 12px;
+
 }
 .pokemon3{
     margin:0 0 25px;
@@ -39,7 +41,8 @@
     position: absolute;
     left: 980px;
     text-align: left;
-    top: 22%;
+    top: 230px;
+    text-indent: 12px;
 }
 /*charmander*/
 .pokemon4{
@@ -53,6 +56,7 @@
     text-size-adjust: inherit;
     margin-right: 70%;
     position: absolute;
+    text-indent: 12px;
 }
 .pokemon5{
     margin:0 0 25px;
@@ -67,6 +71,7 @@
     position: relative;
     left: 480px;
     text-align: left;
+    text-indent: 12px;
 }
 .pokemon6{
     margin:0 0 25px;
@@ -81,7 +86,8 @@
     position: absolute;
     left: 980px;
     text-align: left;
-    top: 119%;
+    top: 940px;
+    text-indent: 12px;
 }
 /*squirtle*/
 .pokemon7{
@@ -95,6 +101,7 @@
     text-size-adjust: inherit;
     margin-right: 70%;
     position: absolute;
+    text-indent: 12px;
 }
 .pokemon8{
     margin:0 0 25px;
@@ -109,6 +116,7 @@
     position: relative;
     left: 480px;
     text-align: left;
+    text-indent: 12px;
 }
 .pokemon9{
     margin:0 0 25px;
@@ -123,7 +131,8 @@
     position: absolute;
     left: 980px;
     text-align: left;
-    top: 217%;
+    top: 1670px;
+    text-indent: 12px;
 }
 .pokemon172{
     margin:0 0 25px;
@@ -136,6 +145,7 @@
     text-size-adjust: inherit;
     margin-right: 70%;
     position: absolute;
+    text-indent: 12px;
 }
 .pokemon25{
     margin:0 0 25px;
@@ -150,6 +160,7 @@
     position: relative;
     left: 480px;
     text-align: left;
+    text-indent: 12px;
 }
 .pokemon26{
     margin:0 0 25px;
@@ -164,5 +175,6 @@
     position: absolute;
     left: 980px;
     text-align: left;
-    top: 314%;
+    top: 2385px;
+    text-indent: 12px;
 }
