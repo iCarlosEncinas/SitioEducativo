@@ -34,7 +34,7 @@ const getPokemonData1 = async ()=>{
     const {name , height, abilities}= pokemon1;
     const frontImg1 = pokemon1.sprites.front_default;
     pokemonName1.innerText = name;
-    pokemonNumber1.innerText = `El número de la pokédex es: ${pokemon1.id}`;
+    pokemonNumber1.innerText = `El número de la pokédex es: #${pokemon1.id}`;
     pokemonHeight1.innerText = `La altura es: ${pokemon1.height} pulgadas`;
     pokemonWeight1.innerText = `Su peso es de: ${pokemon1.weight}kg`;
     pokemonFrontImg1.src = frontImg1;
@@ -81,7 +81,7 @@ const getPokemonData2 = async ()=>{
     const {name , height, abilities}= pokemon2;
     const frontImg2 = pokemon2.sprites.front_default;
     pokemonName2.innerText = name;
-    pokemonNumber2.innerText = `El número de la pokédex es: ${pokemon2.id}`;
+    pokemonNumber2.innerText = `El número de la pokédex es: #${pokemon2.id}`;
     pokemonHeight2.innerText = `La altura es: ${height} pulgadas`;
     pokemonWeight2.innerText = `Su peso es de: ${pokemon2.weight}kg`;
     pokemonFrontImg2.src = frontImg2;
@@ -126,7 +126,7 @@ const getPokemonData3 = async ()=>{
     const {name , height, abilities}= pokemon3;
     const frontImg3 = pokemon3.sprites.front_default;
     pokemonName3.innerText = name;
-    pokemonNumber3.innerText = `El número de la pokédex es: ${pokemon3.id}`;
+    pokemonNumber3.innerText = `El número de la pokédex es: #${pokemon3.id}`;
     pokemonHeight3.innerText = `La altura es: ${height} pulgadas`;
     pokemonWeight3.innerText = `Su peso es de: ${pokemon3.weight}kg`;
     pokemonFrontImg3.src = frontImg3;
@@ -171,7 +171,7 @@ const getPokemonData4 = async ()=>{
     const {name , height, abilities}= pokemon4;
     const frontImg4 = pokemon4.sprites.front_default;
     pokemonName4.innerText = name;
-    pokemonNumber4.innerText = `El número de la pokédex es: ${pokemon4.id}`;
+    pokemonNumber4.innerText = `El número de la pokédex es: #${pokemon4.id}`;
     pokemonHeight4.innerText = `La altura es: ${height} pulgadas`;
     pokemonWeight4.innerText = `Su peso es de: ${pokemon4.weight}kg`;
     pokemonFrontImg4.src = frontImg4;
@@ -216,7 +216,7 @@ const getPokemonData5 = async ()=>{
     const {name , height, abilities}= pokemon5;
     const frontImg5 = pokemon5.sprites.front_default;
     pokemonName5.innerText = name;
-    pokemonNumber5.innerText = `El número de la pokédex es: ${pokemon5.id}`;
+    pokemonNumber5.innerText = `El número de la pokédex es: #${pokemon5.id}`;
     pokemonHeight5.innerText = `La altura es: ${height} pulgadas`;
     pokemonWeight5.innerText = `Su peso es de: ${pokemon5.weight}kg`;
     pokemonFrontImg5.src = frontImg5;
@@ -262,7 +262,7 @@ const getPokemonData6 = async ()=>{
     const {name , height, abilities}= pokemon6;
     const frontImg6 = pokemon6.sprites.front_default;
     pokemonName6.innerText = name;
-    pokemonNumber6.innerText = `El número de la pokédex es: ${pokemon6.id}`;
+    pokemonNumber6.innerText = `El número de la pokédex es: #${pokemon6.id}`;
     pokemonHeight6.innerText = `La altura es: ${height} pulgadas`;
     pokemonWeight6.innerText = `Su peso es de: ${pokemon6.weight}kg`;
     pokemonFrontImg6.src = frontImg6;
@@ -307,7 +307,7 @@ const getPokemonData7 = async ()=>{
     const {name , height, abilities}= pokemon7;
     const frontImg7 = pokemon7.sprites.front_default;
     pokemonName7.innerText = name;
-    pokemonNumber7.innerText = `El número de la pokédex es: ${pokemon7.id}`;
+    pokemonNumber7.innerText = `El número de la pokédex es: #${pokemon7.id}`;
     pokemonHeight7.innerText = `La altura es: ${height} pulgadas`;
     pokemonWeight7.innerText = `Su peso es de: ${pokemon7.weight}kg`;
     pokemonFrontImg7.src = frontImg7;
@@ -352,7 +352,7 @@ const getPokemonData8 = async ()=>{
     const {name , height, abilities}= pokemon8;
     const frontImg8 = pokemon8.sprites.front_default;
     pokemonName8.innerText = name;
-    pokemonNumber8.innerText = `El número de la pokédex es: ${pokemon8.id}`;
+    pokemonNumber8.innerText = `El número de la pokédex es: #${pokemon8.id}`;
     pokemonHeight8.innerText = `La altura es: ${height} pulgadas`;
     pokemonWeight8.innerText = `Su peso es de: ${pokemon8.weight}kg`;
     pokemonFrontImg8.src = frontImg8;
@@ -397,7 +397,7 @@ const getPokemonData9 = async ()=>{
     const {name , height, abilities}= pokemon9;
     const frontImg9 = pokemon9.sprites.front_default;
     pokemonName9.innerText = name;
-    pokemonNumber9.innerText = `El número de la pokédex es: ${pokemon9.id}`;
+    pokemonNumber9.innerText = `El número de la pokédex es: #${pokemon9.id}`;
     pokemonHeight9.innerText = `La altura es: ${height} pulgadas`;
     pokemonWeight9.innerText = `Su peso es de: ${pokemon9.weight}kg`;
     pokemonFrontImg9.src = frontImg9;
@@ -420,6 +420,52 @@ const getPokemonData9 = async ()=>{
 
 getPokemonData9();
 getPokemonAbilityData9();
+//172
+const pokemonName172 = document.getElementById('pokemon-name172');
+const pokemonHeight172 = document.getElementById('pokemon-height172');
+const pokemonFrontImg172 = document.getElementById('pokemon-img-front172');
+const pokemonNumber172 = document.getElementById('pokemon-number172');
+const pokemonWeight172 = document.getElementById('pokemon-weight172');
+const pokemonAbilities172 = document.getElementById('pokemon-abilities172'); 
+
+const getPokemonAbilityData172 = async url=>{
+    const responses172 = await fetch(url);
+    const abilityData172 = await responses172.json();
+    return abilityData172;
+
+}
+const getPokemonData172 = async ()=>{
+    const response172 = await fetch(`${pokemonApiUrl}pokemon/172/`);
+    console.log(response172);
+    const pokemon172 = await response172.json();
+    console.log(pokemon172);
+    const {name , height, abilities}= pokemon172;
+    const frontImg172 = pokemon172.sprites.front_default;
+    pokemonName172.innerText = name;
+    pokemonNumber172.innerText = `El número de la pokédex es: #${pokemon172.id}`;
+    pokemonHeight172.innerText = `La altura es: ${height} pulgadas`;
+    pokemonWeight172.innerText = `Su peso es de: ${pokemon172.weight}kg`;
+    pokemonFrontImg172.src = frontImg172;
+
+    abilities.forEach(async element => {
+        const abilityData172 = await getPokemonAbilityData172(element.ability.url);
+        effect_entries = abilityData172.effect_entries;
+
+        pokemonAbilities172.innerHTML +=
+        `<li>
+            ${element.ability.name}
+            <div>Efecto:
+                <ul>
+                    ${effect_entries[0].effect}
+                </ul>
+            </div>
+        </li>`
+    });
+};
+
+getPokemonData172();
+getPokemonAbilityData172();
+
 //25
 const pokemonName25 = document.getElementById('pokemon-name25');
 const pokemonHeight25 = document.getElementById('pokemon-height25');
@@ -442,7 +488,7 @@ const getPokemonData25 = async ()=>{
     const {name , height, abilities}= pokemon25;
     const frontImg25 = pokemon25.sprites.front_default;
     pokemonName25.innerText = name;
-    pokemonNumber25.innerText = `El número de la pokédex es: ${pokemon25.id}`;
+    pokemonNumber25.innerText = `El número de la pokédex es: #${pokemon25.id}`;
     pokemonHeight25.innerText = `La altura es: ${height} pulgadas`;
     pokemonWeight25.innerText = `Su peso es de: ${pokemon25.weight}kg`;
     pokemonFrontImg25.src = frontImg25;
@@ -465,3 +511,48 @@ const getPokemonData25 = async ()=>{
 
 getPokemonData25();
 getPokemonAbilityData25();
+//26
+const pokemonName26 = document.getElementById('pokemon-name26');
+const pokemonHeight26 = document.getElementById('pokemon-height26');
+const pokemonFrontImg26 = document.getElementById('pokemon-img-front26');
+const pokemonNumber26 = document.getElementById('pokemon-number26');
+const pokemonWeight26 = document.getElementById('pokemon-weight26');
+const pokemonAbilities26 = document.getElementById('pokemon-abilities26'); 
+
+const getPokemonAbilityData26 = async url=>{
+    const responses26 = await fetch(url);
+    const abilityData26 = await responses26.json();
+    return abilityData26;
+
+}
+const getPokemonData26 = async ()=>{
+    const response26 = await fetch(`${pokemonApiUrl}pokemon/26/`);
+    console.log(response26);
+    const pokemon26 = await response26.json();
+    console.log(pokemon26);
+    const {name , height, abilities}= pokemon26;
+    const frontImg26 = pokemon26.sprites.front_default;
+    pokemonName26.innerText = name;
+    pokemonNumber26.innerText = `El número de la pokédex es: #${pokemon26.id}`;
+    pokemonHeight26.innerText = `La altura es: ${height} pulgadas`;
+    pokemonWeight26.innerText = `Su peso es de: ${pokemon26.weight}kg`;
+    pokemonFrontImg26.src = frontImg26;
+
+    abilities.forEach(async element => {
+        const abilityData26 = await getPokemonAbilityData26(element.ability.url);
+        effect_entries = abilityData26.effect_entries;
+
+        pokemonAbilities26.innerHTML +=
+        `<li>
+            ${element.ability.name}
+            <div>Efecto:
+                <ul>
+                    ${effect_entries[0].effect}
+                </ul>
+            </div>
+        </li>`
+    });
+};
+
+getPokemonData26();
+getPokemonAbilityData26();
