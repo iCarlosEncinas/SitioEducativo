@@ -4,22 +4,6 @@ body{
 .titulo{
     text-align: center;
 }
-#kanji{
-    color: black;
-    font-size: 80px;
-}
-.section1{
-    text-align: center;
-    background-color: darkred;
-    height: 25%;
-}
-.information{
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: gray;
-}
 nav{
     background-color: black;
     text-decoration: none;
