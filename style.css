@@ -29,6 +29,7 @@ nav{
     margin-right: 5%;
     padding: 1%;
     font-size: 30px;
+    border-radius: 10%;
 }
 .itemMenu:hover{
     background-color: brown;
