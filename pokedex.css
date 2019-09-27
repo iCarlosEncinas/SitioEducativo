@@ -1,7 +1,7 @@
 body{
     background-color: tomato;
 }
-.titulo{
+/*.titulo{
     text-align: center;
 }
 .section1{
@@ -42,7 +42,7 @@ a:hover{
     margin-top: 3%;
     text-align: center;
     border: none;
-}
+}*/
 /*bulbasaur*/
 .pokemon1{
     margin:0 0 25px;
