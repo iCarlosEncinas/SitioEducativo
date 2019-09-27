@@ -43,3 +43,95 @@ a:hover{
     text-align: center;
     border: none;
 }
+/*bulbasaur*/
+.pokemon1{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px 0%;
+    background-color:#d9edc2;
+	border:1px solid #b2ce96;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+}
+.pokemon2{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px;
+    background-color:#d9edc2;
+	border:1px solid #b2ce96;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+}
+.pokemon3{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px;
+    background-color:#d9edc2;
+	border:1px solid #b2ce96;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+}/*charmander*/
+.pokemon4{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px;
+    background-color:#f9dbdb;
+	border:1px solid #e9b3b3;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+}
+.pokemon5{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px;
+    background-color:#f9dbdb;
+	border:1px solid #e9b3b3;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+}
+.pokemon6{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px;
+    background-color:#f9dbdb;
+	border:1px solid #e9b3b3;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+}
+/*squirtle*/
+.pokemon7{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px;
+    background-color:rgb(193, 231, 241);
+    border:1px solid #95b5cc;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+}
+.pokemon8{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px;
+    background-color:rgb(193, 231, 241);
+    border:1px solid #95b5cc;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+}
+.pokemon9{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px;
+    background-color:rgb(193, 231, 241);
+    border:1px solid #95b5cc;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+}
