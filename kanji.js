@@ -14,10 +14,13 @@ const getKanjiData = async ()=>{
     const {kanji , kun_readings , meanings} = Datakanji;
     Htmlkanji.innerHTML = kanji;
     Htmlreading.innerHTML = kun_readings;
-    meanings.forEach(element => {
-        Htmlmean.innerHTML += element.meanings;
+    meanings.forEach(meanings => {
+        Htmlmean.innerHTML += `<li>${meanings}</li>`;
+        console.log(meanings);
     });
     
 }
 
 btnSearch.addEventListener('click', getKanjiData);
+
+getKanjiData();
