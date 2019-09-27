@@ -1,3 +1,4 @@
+
 /*bulbasaur*/
 .pokemon1{
     margin:0 0 25px;
@@ -8,6 +9,8 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
+    margin-right: 70%;
+    position: absolute;
 }
 .pokemon2{
     margin:0 0 25px;
@@ -18,6 +21,10 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
+    margin-right: 70%;
+    position: relative;
+    left: 480px;
+    text-align: left;
 }
 .pokemon3{
     margin:0 0 25px;
@@ -28,7 +35,13 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
-}/*charmander*/
+    margin-right: 5%;
+    position: absolute;
+    left: 980px;
+    text-align: left;
+    top: 22%;
+}
+/*charmander*/
 .pokemon4{
     margin:0 0 25px;
     overflow:hidden;
@@ -38,6 +51,8 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
+    margin-right: 70%;
+    position: absolute;
 }
 .pokemon5{
     margin:0 0 25px;
@@ -48,6 +63,10 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
+    margin-right: 70%;
+    position: relative;
+    left: 480px;
+    text-align: left;
 }
 .pokemon6{
     margin:0 0 25px;
@@ -58,6 +77,11 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
+    margin-right: 5%;
+    position: absolute;
+    left: 980px;
+    text-align: left;
+    top: 119%;
 }
 /*squirtle*/
 .pokemon7{
@@ -69,6 +93,8 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
+    margin-right: 70%;
+    position: absolute;
 }
 .pokemon8{
     margin:0 0 25px;
@@ -79,6 +105,10 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
+    margin-right: 70%;
+    position: relative;
+    left: 480px;
+    text-align: left;
 }
 .pokemon9{
     margin:0 0 25px;
@@ -89,6 +119,23 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
+    margin-right: 5%;
+    position: absolute;
+    left: 980px;
+    text-align: left;
+    top: 217%;
+}
+.pokemon172{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px 0%;
+    background-color:#e3e9b0;
+	border:1px solid #dfe08d;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+    margin-right: 70%;
+    position: absolute;
 }
 .pokemon25{
     margin:0 0 25px;
@@ -99,4 +146,23 @@
     -webkit-border-radius: 5px;
     border-radius: 20px;
     text-size-adjust: inherit;
+    margin-right: 70%;
+    position: relative;
+    left: 480px;
+    text-align: left;
+}
+.pokemon26{
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:1px 0%;
+    background-color:#e3e9b0;
+	border:1px solid #dfe08d;
+    -webkit-border-radius: 5px;
+    border-radius: 20px;
+    text-size-adjust: inherit;
+    margin-right: 5%;
+    position: absolute;
+    left: 980px;
+    text-align: left;
+    top: 314%;
 }
