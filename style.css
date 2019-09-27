@@ -10,7 +10,6 @@ body {
     font-size: 60px;
     color: white;
     font-family: sans-serif;
-
 }
 
 nav{
@@ -20,7 +19,7 @@ nav{
     vertical-align: top;
     padding: 2%;  
 }
-a{
+.itemMenu{
     position: relative;
     text-align: center;
     background-color: black;
@@ -31,7 +30,24 @@ a{
     padding: 1%;
     font-size: 30px;
 }
-a:hover{
+.itemMenu:hover{
     background-color: brown;
     color: black;
+}
+.imagenes{
+    width: 250px;
+    height: 200px;
+    border-radius: 100%;
+    line-break: auto;
+    margin-left: 2%;
+}
+.imagenesdiv{
+    text-align: center;
+    margin-top: 10%;
+}
+#clickImagen{
+    background: none;
+}
+#clickImagen:hover{
+    background: none;
 }
