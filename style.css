@@ -1,9 +1,18 @@
-body{
-    background-color: darkslategray;
+body {
+    background-color :#333333;
 }
+
 .titulo{
     text-align: center;
 }
+
+.arriba{
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
 nav{
     background-color: black;
     text-decoration: none;
@@ -14,19 +23,15 @@ nav{
 a{
     position: relative;
     text-align: center;
-    background-color: brown;
+    background-color: black;
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 0%;
     margin-right: 5%;
     padding: 1%;
+    font-size: 30px;
 }
 a:hover{
-    background-color: white;
-    color: red;
-}
-.Buscador{
-    margin-top: 3%;
-    text-align: center;
-    border: none;
+    background-color: brown;
+    color: black;
 }

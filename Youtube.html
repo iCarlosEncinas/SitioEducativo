@@ -1,0 +1,97 @@
+
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <link rel="stylesheet" href="style.css">
+                <link rel="stylesheet" href="Youtube.css">
+                <title>EducaT | Video Tutoriales</title>
+            </head>
+  <body>
+      <div class="arriba">Educa-T</div>
+        <nav>
+                <a href="index.html">Inicio</a>
+                <a href="Kanji.html">Kanji</a>
+                <a href="Youtube.html">Música</a>
+                <a href="#">Prueba4</a>
+                <a href="pokedex.html">Pokémon</a>
+            </nav>
+            
+
+ <!-- Video #1. -->
+    <div class="Video1" id="player"></div>
+    <script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    var player;
+    function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+    height: '360',width: '640',
+          videoId: 'l9KCfeeQaF8',
+      events:{'onReady': onPlayerReady,'onStateChange': onPlayerStateChange}});}
+      function onPlayerReady(event){event.target.playVideo();}
+     var done = false;function onPlayerStateChange(event){if (event.data == YT.PlayerState.PLAYING && !done){setTimeout(stopVideo, 0001);done = true;}}function stopVideo(){player.stopVideo();}
+  </script>
+
+<div class="texto1"><pre>
+    Solo de batería de la canción Hey Pachuco, interpretado por el 
+    grandioso baterista, Daniel Glass.
+    Es muy recomendado aprender a tocar esta pieza musical debido
+    a su complejidad y ritmo, que te permite
+    tocar de una forma bastante variada y suena genial.
+</pre>
+</div>
+<!-- Video #1. -->
+
+<div class="vidio2">
+ <iframe width="640" height="360" src="https://www.youtube.com/embed/wgPcfsJJroo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="texto2"><pre>
+    Cliffs of Dover es una canción instrumental escrita por el músico 
+    Eric Johnson en la década de los 80. Forma parte de su álbum Ah 
+    Via Musicom. Esta canción toma su nombre de los acantilados de 
+    Dover.
+
+    Esta canción ganó un Premio Grammy en 1991 por la Mejor 
+    Interpretación de Rock Instrumental, venciendo a The Allman 
+    Brothers Band, Rush, Yes y a Danny Gatton. También se encuentra 
+    en el lugar número 17 en la lista de los 100 mejores solos de la 
+    historia. 
+</pre></div>
+
+<div class="vidio3">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/nNszif3eDTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="texto3"><pre>
+    «Can't Stop» es una canción de la banda californiana Red Hot Chili 
+    Peppers, de su álbum lanzado en 2002, By the Way. Es el tercer 
+    sencillo del álbum, la séptima canción del álbum, y una de las 
+    pocas canciones del disco que contiene los típicos versos cortos de
+    la banda, es una de sus canciones más conocidas de sus últimos años 
+    y una de las favoritas del público. En la canción destaca 
+    principalmente el groove del bajista flea al interpretar la canción, 
+    utilizando tecnicas como el el slap y el pop, las cuales le dan un 
+    sonido "funk" a la canción.
+</pre></div>
+
+
+<div class="vidio4">
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/te3Q36pKfwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="texto4"><pre>
+    «T.N.T.» es un single grabado en 1975 por la banda de hard rock 
+    AC/DC, incluido en la edición australiana de su álbum T.N.T. y en 
+    la versión internacional de High Voltage. La canción fue compuesta 
+    por Bon Scott, Angus Young y Malcolm Young.
+    Malcolm Young es uno de los mejores guitarristas rítmicos y el 
+    cerebro de la banda AC/DC.
+</pre></div>
+
+  </body>
+</html>
