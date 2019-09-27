@@ -22,6 +22,13 @@ body {background-color :#333333;}
     background-color: aquamarine;
 }
 
+.arriba{
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
 nav{
     background-color: black;
     text-decoration: none;
@@ -32,16 +39,17 @@ nav{
 a{
     position: relative;
     text-align: center;
-    background-color: brown;
+    background-color: black;
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 0%;
     margin-right: 5%;
     padding: 1%;
+    font-size: 30px;
 }
 a:hover{
-    background-color: aqua;
-    color: red;
+    background-color: brown;
+    color: black;
 }
 
 .Video1{
@@ -71,7 +79,7 @@ a:hover{
 
 .texto1{
     position: absolute;
-    top: 200px;
+    top: 300px;
     font-size: 20px;
     margin: auto;
     color : white;
@@ -79,7 +87,7 @@ a:hover{
 }
 .texto2{
     position: absolute;
-    top: 600px;
+    top: 700px;
     right: 0 px;
     left: 700px;
     font-size: 20px;
@@ -89,7 +97,7 @@ a:hover{
 }
 .texto3{
     position: absolute;
-    top: 1080px;
+    top: 1150px;
     font-size: 20px;
     margin: auto;
     color : white;
@@ -97,7 +105,7 @@ a:hover{
 }
 .texto4{
     position: absolute;
-    top: 1500px;
+    top: 1640px;
     right: 0 px;
     left: 700px;
     font-size: 20px;
