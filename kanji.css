@@ -1,0 +1,50 @@
+#kanji{
+    color: black;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#kanji2{
+    color: black;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#kanji3{
+    color: black;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#kanji4{
+    color: black;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.section1{
+    text-align: center;
+    background-color: darkred;
+    height: 25%;
+}
+.section2{
+    text-align: center;
+    background-color: darkred;
+    height: 25%;
+}
+.section3{
+    text-align: center;
+    background-color: darkred;
+    height: 25%;
+}
+.section4{
+    text-align: center;
+    background-color: darkred;
+    height: 25%;
+}
+.information{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: gray;
+}
